@@ -1,0 +1,168 @@
+@import "../variables";
+.P-table-block {
+  padding: 20px 0;
+
+  .P-overflow-table {
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+
+      height: 3px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $main-color;
+    }
+
+    a{
+      width: 100%;
+      display: block;
+      color: black;
+      transition: 0.3s;
+      &:hover{
+        background-color: rgba(0,0,0,0.05);
+      }
+    }
+  }
+
+  .P-table-header {
+    background-color: rgba(0, 0, 0, 0.05);
+
+    .P-table-tr {
+      P {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .P-table-tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+    .P-table-td {
+      padding: 0 10px;
+      min-height: 45px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: normal;
+        white-space: nowrap;
+      }
+      &:first-child {
+        min-width: 50px;
+        max-width: 50px;
+        text-align: center;
+        justify-content: center;
+      }
+      &:nth-child(2){
+        min-width: 150px;
+        max-width: 150px;
+
+      }
+      &:nth-child(3){
+        min-width: 150px;
+        max-width: 150px;
+
+      }
+      &:nth-child(4){
+        min-width: 130px;
+        max-width: 130px;
+
+      }
+      &:nth-child(5){
+        min-width: 150px;
+        max-width: 150px;
+
+      }
+      &:nth-child(6){
+        min-width: 130px;
+
+      }
+      &:nth-child(7){
+        min-width: 130px;
+
+      }
+      &:nth-child(8){
+        min-width: 50px;
+      }
+      &:last-child{
+        width: 50px;
+      }
+    }
+    .color-red{
+      color: red;
+    }
+    .color-green{
+      color: green;
+    }
+
+  }
+
+}
+
+
+
+.P-user-settings-icon{
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+.P-menu-users{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  border-radius: 8px;
+  padding: 15px;
+  right: 40px;
+  width: 150px;
+  font-size: 1px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999;
+  transition: 0.3s;
+
+  ul{
+    li{
+      padding: 4px 0;
+      font-size: 14px;
+      color: #686868;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover{
+        color: $main-color;
+      }
+    }
+  }
+
+}
+
+.P-user-setting-box:hover  .P-menu-users{
+  opacity: 1;
+  visibility: visible;
+  right: 50px;
+}
+
+.P-users-table-list{
+  min-width: 1000px;
+}

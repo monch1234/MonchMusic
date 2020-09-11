@@ -1,0 +1,133 @@
+.TrackPage {
+    width: 75%;
+    margin-top: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HomeContainerTrack{
+    width: 80%;
+}
+
+.TrackDownloadInfo {
+    margin-top: 70px;
+}
+
+.ContainerTrackPage{
+    width: 100%;
+    border: 1px solid #4D7F9C;
+    background-color: #1D2938;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ContainerTrackPageHome {
+    display: flex;
+    justify-content: space-between;
+}
+.ContainerLogoTrack {
+    width: 20%;
+    padding: 30px;
+    border: 1px solid #4D7F9C;
+}
+
+.Container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DownloadTrack {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DownloadTrack button {
+    display: inline-block;
+    text-align: center;
+    padding: 0 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #4D7F9C;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #0075CB;
+    color: #fff;
+}
+
+.Track {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.PlayTrack {
+    background-color: #1D2938;
+    border: 1px solid #4D7F9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: #0075CB;
+}
+
+.PlayTrack:hover {
+    background-color: #1D2938;
+}
+
+.InfoTrackPage {
+    text-align: center;
+    font-size: 13px;
+}
+.ContainerTrack ul li {list-style-type: none;}
+.ContainerTrack ul li span{color: #0075CB;}
+
+.TrackDownloadInfo {
+    font-size: 17px;
+}
+
+  @media screen and (max-width: 1200px) {
+    .TrackDownloadInfo {
+        font-size: 9px;
+    }
+
+    .ContainerTrackPageHome{display: block;}
+    .ContainerTrackPage{
+        width: 90%;
+        padding: 15px;
+    }
+    .ContainerLogoTrack{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+    .ContainerTrack {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Container{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .DownloadTrack{
+        width: 100%;
+    }
+    .InfoTrackPage{
+        font-size: 10px;
+    }
+  }

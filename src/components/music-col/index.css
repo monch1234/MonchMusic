@@ -1,0 +1,59 @@
+
+.MusicCol {
+    width: 96%;
+    height: 60px;
+    border-radius: 6px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InfoContMusic {
+    display: flex;
+    align-items: center;
+}
+
+.MusicCol:hover {
+    background: #1C1C26;
+    transition: color .3s, background-color .3s, opacity .3s;
+    cursor: pointer;
+    border-radius: 0;
+    color: #0075CB;
+
+}
+
+.PlayPause button {
+    border: none;
+    background-color: #1C1C26;
+    width: 56px;
+    height: 56px;
+    color: #0075CB;
+    margin-right: 15px;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.PlayPause button:hover {
+    color: #fff;
+} 
+
+.InfoTrack p span {
+    font-size: 20px;
+}
+
+.TrackLink {
+    font-size: 16px;
+    color: #fff;
+}
+
+.TrackLink:hover{
+    color: #0075CB;
+}
+
+.TrackLink:hover{
+    text-decoration: none;
+    color: #0075CB;
+} 

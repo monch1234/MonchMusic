@@ -1,0 +1,28 @@
+.Footer {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.Footer p {margin: 5px 0px;}
+
+.AdminLink {
+    display: flex;
+    align-items: center;
+}
+
+.AdminLink a {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.AdminLink a:hover {
+    color: green;
+    cursor: pointer;
+}
+

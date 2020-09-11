@@ -1,0 +1,47 @@
+.SeachHidhText {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #fff;
+}
+
+.SechHeaderLeft p, h1  {
+    margin-bottom: 5px;
+}
+
+.SechHeaderLeft p {
+    font-size: 19px;
+}
+
+.SechHeaderLeft h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.SechHeaderRight span, a {
+    font-size: 20px;
+    color: #009FEA;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.SechHeaderRight span a:hover {
+    border-bottom: 1px solid  #009FEA;
+}
+
+
+@media screen and (max-width: 420px) {
+    .SechHeaderLeft h1 {
+        font-size: 18px;
+    }
+
+    .SechHeaderLeft p{
+        font-size: 15px;
+    }
+  
+    .SechHeaderRight a {
+        font-size: 15px;
+    }
+
+}

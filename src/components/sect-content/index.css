@@ -1,0 +1,34 @@
+
+
+.SectContent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 10px 0px 100px 0px;
+}
+
+
+@media screen and (min-width: 900px) {
+    .SectContent {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+  }
+
+
+@media screen and (max-width: 800px) {
+    .SectContent {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .SectContent {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+  }

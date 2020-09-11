@@ -1,0 +1,48 @@
+.sectCol {
+    width: 49%;
+    background: #1E2838;
+    border: 1px solid #4D7F9C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 45%;
+}
+
+.PlayersTrack {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 997;
+    background-color: #1E2838;
+    color: #fff;
+
+}
+
+.audioPlayer {
+    max-width: 1000px;
+    width: calc(100% - 30px);
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .sectCol{
+        width: 100%;
+        margin: auto;
+    }
+
+    .col1 {border-bottom: none;}
+    .col2{border-top: none;}
+}

@@ -1,0 +1,33 @@
+.Album {
+    margin: 10px;
+}
+
+.SectAlbum{text-align: center;}
+
+.SectAlbumLogo {
+    padding: 30px;
+    background:#1E2838 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4D7F9C;
+}
+
+.LinkToAlbum {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.LinkToAlbum:hover {
+    transition: color .3s, background-color .3s, opacity .3s;
+    color: #0076C9;
+}
+
+.SpanTextMusic {font-size: 16px;}
+
+.logo-album {width: 100%;}
+
+@media screen and (max-width:800px) {
+    .Album {margin: 3px;}
+}

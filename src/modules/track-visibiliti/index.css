@@ -1,0 +1,39 @@
+.sectColTrackVisi {
+    width: 60%;
+    margin: auto;
+    background: #262632;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Track { width: 100%}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 45%;
+}
+
+.PlayersTrack {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 997;
+    background-color: #141C23;
+    color: #fff;
+
+}
+
+.audioPlayer {
+    max-width: 1000px;
+    width: calc(100% - 30px);
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
